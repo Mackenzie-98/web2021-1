@@ -12,5 +12,4 @@ $header = "Enviado por Edinsson Melo";
 mail($destinatario,$asunto, $mensaje,$header);
 echo "<script>alert("El correo fue enviado correctamente.")</script>"
 echo "<script>setTimeout(\"location.href='contacto.html'\",1000)</script>"
-
 ?>
