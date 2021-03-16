@@ -3,7 +3,7 @@ require "PHPMailer/Exception.php";
 require "PHPMailer/PHPMailer.php";
 require "PHPMailer/SMTP.php";
  
- $nombre = $_POST['usuario'];
+$nombre = $_POST['usuario'];
 $asunto = $_POST['subject'];
 $mensaje = $_POST['message'];
 $correo = $_POST['email'];
