@@ -4,77 +4,104 @@
 	<meta charset="utf-8">
 	<title>Edinsson Melo</title>
 	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+	<link href="https://fonts.googleapis.com/css2?family=Luckiest+Guy&family=Nothing+You+Could+Do&family=Redressed&display=swap" rel="stylesheet">
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+	<link href="https://fonts.googleapis.com/css2?family=Rancho&display=swap" rel="stylesheet">
 </head>
 	<body>
-		<img height=200 width = 1000 src="img/Doraemon.jpg">
-		<h1 class="titulo1">Edinsson Adrian Melo Calvo</h1>
-		<h2>Fecha de Nacimiento: 03/09/1998</h2>
-		<p>Mi nombre es Edinsson Adrian Melo Calvo, tengo 22 años, soy de Villa Caro pero he vivido toda mi vida en Cúcuta. Viajé a Argentina en el 2019 como estudiante de intercambio... a pesar de que era una de mis metas, todo terminó en un desastre que retrasó 1 año mi carrera y destruyó mi promedio. Actualmente procuro siempre disfrutar la vida y no torturarme por los problemas que se presentan.</p>
-		<p>La carrera me encantó hasta 7to semestre, cuando me di cuenta que realmente mi inclinación era más fuerte hacia las Ciencias de la Computación y Matemáticas (de hecho intenté estudiar Lic. en Matemática en 5to Semestre). La línea de redes y gerencia no son realmente de mi interés. Actualmente dedico gran parte de mi tiempo al semillero de programación competitiva y hago lo posible por graduarme. </p>
-		<h3>Mis hobbies</h3>
-		<ul>
-			<li>Programación Competitiva</li>
-			<li>Anime</li>
-			<li>Entusiasta del hardware</li>
-			<li>Videojuegos</li>
-		</ul>
-		<h3>Mis películas y series favoritas</h3>
-		<ul>
-			<li>Breaking Bad</li>
-			<li>Game of Thrones</li>
-			<li>Matrix</li>
-			<li>Spiderman</li>
-		</ul>
-		<h3>Mis juegos favoritos</h3>
-		<ul>
-			<li>World of Warcraft</li>
-			<li>Stronghold Crusader</li>
-			<li>Grand Theft Auto: San Andreas</li>
-			<li>Halo</li>
-		</ul>
-		<h3>Mi canción favorita</h3>
-		<audio controls>
-			<source src="music/Dancing.mp3"  type="audio/ogg">
-  			<source src="music/Dancing.mp3"  type="audio/mpeg">
-		</audio>
-		<h3>Mis materias favoritas</h3>
-		<table>
-			<tr>
-				<th>Materia</th>
-				<th>Nota</th>
-				<th>¿Por qué es de las favoritas?</th>
-			</tr>
-			
-			<tr>
-				<td>Cálculo Integral</td>
-				<td>4.5</td>
-				<td>Me pareció interesante cómo unas simples reglas de integración te pueden permitir sumar hasta infinitos objetos.</td>
-			</tr>
+		<header>
+			<h1 id="titulo">Edinsson Adrian Melo Calvo</h1>
+		</header>
+		<nav>
+			<a href="index.html"><button class="boton">Inicio</button></a>
+			<a href="contacto.html"><button class="boton">Contacto</button></a>
+		</nav>
+		
+		<article>
+			<section>
+				<h2 class="subtitle">Fecha de Nacimiento: 03/09/1998</h2>
+			</section>
+			<br>
+			<section>
+				<p>Mi nombre es Edinsson Adrian Melo Calvo, tengo 22 años, soy de Villa Caro pero he vivido toda mi vida en Cúcuta. Viajé a Argentina en el 2019 como estudiante de intercambio... a pesar de que era una de mis metas, todo terminó en un desastre que retrasó 1 año mi carrera y destruyó mi promedio. Actualmente procuro siempre disfrutar la vida y no torturarme por los problemas que se presentan.</p>
+			</section>
+			<br>
+			<section>
+				<p>La carrera me encantó hasta 7to semestre, cuando me di cuenta que realmente mi inclinación era más fuerte hacia las Ciencias de la Computación y Matemáticas (de hecho intenté estudiar Lic. en Matemática en 5to Semestre). La línea de redes y gerencia no son realmente de mi interés. Actualmente dedico gran parte de mi tiempo al semillero de programación competitiva y hago lo posible por graduarme. </p>
+			</section>
+			<br>
+			<h3 class="subtitle">Mis materias favoritas</h3>
+			<br>
+			<table class="tabla">
+				<tr>
+					<th>Materia</th>
+					<th>Nota</th>
+					<th>¿Por qué es de las favoritas?</th>
+				</tr>
+				
+				<tr>
+					<td>Cálculo Integral</td>
+					<td>4.5</td>
+					<td>Me pareció interesante cómo unas simples reglas de integración te pueden permitir sumar hasta infinitos objetos.</td>
+				</tr>
 
-			<tr>
-				<td>Física Electromagnética</td>
-				<td>4.6</td>
-				<td>Porque tuve un excelente docente y me pareció muy interesante aplicar cálculo integral para resolver problemas aplicados.</td>
-			</tr>
+				<tr>
+					<td>Física Electromagnética</td>
+					<td>4.6</td>
+					<td>Porque tuve un excelente docente y me pareció muy interesante aplicar cálculo integral para resolver problemas aplicados.</td>
+				</tr>
 
-			<tr>
-				<td>Análisis de Algoritmos</td>
-				<td>3.6</td>
-				<td>Me gusta la algoritmia y actualmente llevo 3 años aprendiendo algoritmos en el semillero de programación competitiva.</td>
-			</tr>
+				<tr>
+					<td>Análisis de Algoritmos</td>
+					<td>3.6</td>
+					<td>Me gusta la algoritmia y actualmente llevo 3 años aprendiendo algoritmos en el semillero de programación competitiva.</td>
+				</tr>
 
-			<tr>
-				<td>Teoría de la computación</td>
-				<td>3.7</td>
-				<td>Fue muy interesante conocer los principios básicos de la computación: lenguajes formales, máquina de turing, teoría de autómatas y pilas. </td>
-			</tr>
+				<tr>
+					<td>Teoría de la computación</td>
+					<td>3.7</td>
+					<td>Fue muy interesante conocer los principios básicos de la computación: lenguajes formales, máquina de turing, teoría de autómatas y pilas. </td>
+				</tr>
 
-			<tr>
-				<td>Inteligencia Artificial</td>
-				<td>4.1</td>
-				<td>Aplica principios biológicos, modelos matemáticos y se realizan simulaciones computacionalmente muy interesantes. Es una de mis áreas de interés.</td>
-			</tr>
-		</table>
-		<a href="contacto.html"><button>Contacto</button></a>
+				<tr>
+					<td>Inteligencia Artificial</td>
+					<td>4.1</td>
+					<td>Aplica principios biológicos, modelos matemáticos y se realizan simulaciones computacionalmente muy interesantes. Es una de mis áreas de interés.</td>
+				</tr>
+			</table>
+		</article>
+		<aside>
+			<img src="img/perfil.jpg" id="perfil">
+			<br>
+			<div>
+				<h3 class="subtitle">Mis hobbies</h3>
+				<ul>
+					<li>Programación Competitiva</li>
+					<li>Anime</li>
+					<li>Entusiasta del hardware</li>
+					<li>Videojuegos</li>
+				</ul>
+			</div>
+			<br>
+			<div>
+				<h3 class="subtitle">Mis juegos favoritos</h3>
+				<ul>
+					<li>World of Warcraft</li>
+					<li>Stronghold Crusader</li>
+					<li>Grand Theft Auto: San Andreas</li>
+					<li>Halo</li>
+				</ul>
+			</div>
+			<div>
+				<h3 class="subtitle">Mi canción favorita</h3>
+				<audio controls>
+					<source src="music/Dancing.mp3"  type="audio/ogg">
+		  			<source src="music/Dancing.mp3"  type="audio/mpeg">
+				</audio>
+			</div>
+		</aside>
+		<footer>Copyright © Todos los derechos reservados - Edinsson Melo</footer>
+		
 	</body>
 </html>

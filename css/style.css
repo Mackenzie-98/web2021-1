@@ -1,20 +1,99 @@
-.titulo1{
-	color:red;
+*{
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+
 }
-table,th,td{
-	border:1px solid black;
+
+header{
+	color: 	white;
+	background: rgb(51, 51, 51);
+	font-family: 'Nothing You Could Do', cursive;
+	font-size: 20px;
+	padding: 10px 60px;
+}
+nav{
+	padding: 1px;
+	text-align: right;
+}
+article{
+	font-family: 'Rancho', cursive;
+	font-size: 24px;
+	width:60%;
+	float: left;
+	display: inline-block;
+	margin: 0px 40px;
+	background:		#F5F5DC;
+	height: 850px;
+}
+
+aside{
+	font-family: 'Rancho', cursive;
+	font-size: 24px;
+	width: 30%;
+	float: left;
+	display:inline-block;
+	text-align: center;
+	background:#F5F5DC;
+	height: 850px;
+}
+footer{
+	width: 100%;
+	display: inline-block;
+	padding: 10px;
+	color:white;
+	background: rgb(51, 51, 51);
+}
+p{
+	text-align: justify;
+}
+ul{
+	padding: 10px;
+	margin-left: 30px;
+	text-align: left;
+
+}
+.subtitle{
+	text-align: center;
+	font-size: 30px; !important
+}
+#perfil{
+	width: 233px;
+	height: 235px;
+	border-radius: 70%;
+}
+.boton{
+	font-family: 'Nothing You Could Do', cursive;
+    text-decoration: none;
+    padding: 1px;
+    width: 150px;
+    font-weight: 700;
+    font-size: 20px;
+    color: #ffffff;
+    background-color: rgb(51, 51, 51);
+    border: 2px solid #000000;
+  }
+ form .boton{
+ 	margin-left: 40%;
+ }
+ form label{
+ 	display: inline;
+ 	float: left;
+ 	width: 7%;
+ 	margin: 3px;
+ 	padding-left: 15px;
+ }
+ form input,textarea{
+ 	padding: 10px;
+ 	margin-left: 20px;
+ 	width: 90%;
+ }
+.boton:hover{
+    color: rgb(51, 51, 51);
+    background-color: #ffffff;
+}
+.tabla,tr,th, td{
+	border:2px solid;
 	border-collapse: collapse;
-}
-th, td {
-  padding: 10px;
-}
-button {
-  background-color: #4CAF; /* Green */
-  border: none;
-  color: white;
-  padding: 15px 32px;
-  text-align: center;
-  text-decoration: none;
-  display: inline-block;
-  font-size: 16px;
+	padding: 3px;
 }

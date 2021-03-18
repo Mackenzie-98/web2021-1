@@ -2,27 +2,72 @@
 <html>
 <head>
 	<meta charset="utf-8">
-	<title>
-		Formulario
-	</title>
+	<title>Edinsson Melo</title>
 	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<link rel="stylesheet" type="text/css" href="css/contacto.css">
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+	<link href="https://fonts.googleapis.com/css2?family=Luckiest+Guy&family=Nothing+You+Could+Do&family=Redressed&display=swap" rel="stylesheet">
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+	<link href="https://fonts.googleapis.com/css2?family=Rancho&display=swap" rel="stylesheet">
 </head>
-<body>
-	<form action="https://gemetech.co/mail/mail.php" method="post">
-		<label for="nombre">Nombre: </label>
-		<input type="text" placeholder="Digite su nombre" name="nombre" id="">
-		<br>
-		<label for="asunto">Asunto: </label>
-		<input type="text" placeholder="Digite el asunto" name="asunto" id="">
-		<br>
-		<label for="destinatario">Correo: </label>
-		<input type="email" placeholder="Digite su email" name="destinatario" id="">
-		<br>
-		<label for="mensaje">Mensaje: </label>
-		<textarea placeholder="Escribe un mensaje" name="mensaje" id=""></textarea>
-		<br>
-		<hr>
-		<input type="submit" name="submit">
-	</form>
-</body>
+	<body>
+		<header>
+			<h1 id="titulo">Edinsson Adrian Melo Calvo</h1>
+		</header>
+		<nav>
+			<a href="index.html"><button class="boton">Inicio</button></a>
+			<a href="contacto.html"><button class="boton">Contacto</button></a>
+		</nav>
+		
+		<article>
+			<form action="https://gemetech.co/mail/mail.php" method="post">
+				<label for="nombre">Nombre: </label>
+				<input type="text" placeholder="Digite su nombre" name="nombre" id="">
+				<br>
+				<label for="asunto">Asunto: </label>
+				<input type="text" placeholder="Digite el asunto" name="asunto" id="">
+				<br>
+				<label for="destinatario">Correo: </label>
+				<input type="email" placeholder="Digite su email" name="destinatario" id="">
+				<br>
+				<label for="mensaje">Mensaje: </label>
+				<textarea placeholder="Escribe un mensaje" name="mensaje" id=""></textarea>
+				<br>
+				<hr>
+				<input type="submit" name="submit" class="boton">
+			</form>
+		</article>
+		<aside>
+			<img src="img/perfil.jpg" id="perfil">
+			<br>
+			<div>
+				<h3 class="subtitle">Mis hobbies</h3>
+				<ul>
+					<li>Programación Competitiva</li>
+					<li>Anime</li>
+					<li>Entusiasta del hardware</li>
+					<li>Videojuegos</li>
+				</ul>
+			</div>
+			<br>
+			<div>
+				<h3 class="subtitle">Mis juegos favoritos</h3>
+				<ul>
+					<li>World of Warcraft</li>
+					<li>Stronghold Crusader</li>
+					<li>Grand Theft Auto: San Andreas</li>
+					<li>Halo</li>
+				</ul>
+			</div>
+			<div>
+				<h3 class="subtitle">Mi canción favorita</h3>
+				<audio controls>
+					<source src="music/Dancing.mp3"  type="audio/ogg">
+		  			<source src="music/Dancing.mp3"  type="audio/mpeg">
+				</audio>
+			</div>
+		</aside>
+		<footer>Copyright © Todos los derechos reservados - Edinsson Melo</footer>
+		
+	</body>
 </html>
